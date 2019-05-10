@@ -1,0 +1,79 @@
+p, legend {
+	color: white;
+	font-weight: bold;
+}
+
+body {
+	background: black;
+}
+
+h1#main-header {
+	color: Purple;
+	font-type: Calibri;
+	font-size: 2em;
+}
+
+h2#secondary-header {
+	color: Yellow;
+	font-family: Calibri;
+	font-size: 2em;
+}
+
+.style {
+	padding: 5px;
+	margin: 5px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.legend {
+	color: Red;
+}
+
+.information {
+	color: Green;
+	border-color: Green;
+}
+
+.optional {
+	color: lightgreen;
+	border-color: lightgreen;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+/*will put asterik after name, phone and email*/
+.asterik:after { content:" *"; color: #e32;
+position: absolute;font-size: xx-large;}
+
+form {
+border: 2px solid #c6c7cc;
+border-radius: 5px;
+font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+overflow: hidden;
+width: 400px;
+}
+label {
+display: block;
+font-weight: bold;
+margin-bottom: 20px;
+}
+input {
+background: #fff;
+border: 1px solid #c6c7cc;
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+padding: 6px;
+margin-top: 6px;
+width: 100%;
+}
+button {
+background: linear-gradient(#49708f, #293f50);
+border: 2;
+cursor: pointer;
+font-weight: bold;
+float: left;
+padding: 8px 16px;
+}
