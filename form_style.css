@@ -40,6 +40,19 @@ h2#secondary-header {
 	border-color: lightgreen;
 }
 
+/*Descendant Selector - will override previous colour*/
+form b {color: blue;}
+
+/*Child Selector - replaced legend class from html*/
+fieldset > p {
+	font-style: italic;
+	color: Red;
+}
+
+/*Sibling Selector*/
+h1 ~ h2 {font-style: italic;}
+form + legend {font-style: italic;}
+
 *,
 *:before,
 *:after {
