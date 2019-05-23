@@ -51,6 +51,8 @@ fieldset > p {
 
 /*Sibling Selector*/
 h1 ~ h2 {font-style: italic;}
+
+/*Adjacent Selector*/
 form + legend {font-style: italic;}
 
 *,
