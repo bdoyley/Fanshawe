@@ -12,15 +12,28 @@
 <h1>Stanley Street Market</h1>
 </header>
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul id="menu">
+    <li><a href="#">Home</a></li>
+	<li><a href="#">Bakery</a></li>
+	<li><a href="#">Produce</a></li>
+	<li><a href="#">Place Order</a></li>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "225px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+	
 <div id="wrap">
-<nav>
-<ul>
-<li><a href="#">home</a></li>
-<li><a href="#">bakery </a></li>
-<li><a href="#">produce</a></li>
-<li><a href="#"> place order</a></li>
-</ul>
-</nav>	
 
 <h1>Where Fresh is Best!</h1>
 <section>
